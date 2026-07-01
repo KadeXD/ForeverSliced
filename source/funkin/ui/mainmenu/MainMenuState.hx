@@ -70,6 +70,8 @@ class MainMenuState extends MusicBeatState
 
   static var rememberedSelectedIndex:Int = 0;
 
+  public static var ForeverSlicedBuildVersion:String = '0.1.0';
+
   // this should never be false on non-mobile targets.
   var hasUpgraded:Bool = false;
   var upgradeSparkles:FlxTypedSpriteGroup<UpgradeSparkle>;
